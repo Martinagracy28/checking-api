@@ -40,14 +40,7 @@ console.log("dataresponse",data) ;
  }
 
 
-const getanotherquerry = async() =>{
-  axios.get(`https://jsonplaceholder.typicode.com/users`,{
-        headers:{
-          'Authorization':"RLvP6UdNMiSbtUWUqmmigXETTI1saVGb"
-      }
-      })
-       .then((res)=>console.log("response",res.data))  
-}
+
 
 
   return (
@@ -62,11 +55,7 @@ const getanotherquerry = async() =>{
                     </button>
 
 
-                   
-<br></br>
-                    <button onClick={()=>getanotherquerry()}>
-                       Sample
-                    </button>
+
 
 
 
